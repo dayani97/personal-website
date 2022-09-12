@@ -9,7 +9,7 @@ export interface Props {
 
 const Hero = ({ className }: Props) => {
   return (
-    <div className={clsx(className,'')}>
+    <div className={clsx(className)}>
       <Avatar />
       <Title />
       <Typed 
@@ -21,7 +21,7 @@ const Hero = ({ className }: Props) => {
     typeSpeed={120}
      backSpeed={20}
     className={clsx(
-      'flex  justify-start md:justify-center ',
+      'flex  justify-start md:justify-center',
       'text-3xl  ',
       'text-yellow-500',
     
