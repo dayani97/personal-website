@@ -1,16 +1,19 @@
-import './App.css';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Biography from './components/Biography';
-import Footer from './components/Footer/Footer';
-
-
-function App() {
+ import clsx from "clsx";
+import "./App.css";
+import "./i18n";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Biography from "./components/Biography";
+import Footer from "./components/Footer/Footer";
+export interface Props{className?:string;}
+const App= ({className}:Props)=>  {
   return (
-    <div className="App">
+    <div className={clsx(className,"flex flex-col min-h-screen")}>
       <Header />
-      <Hero />
-      <Biography />
+      <div className={clsx(className,"flex-1")}>
+        <Hero />
+        <Biography />
+      </div>
       <Footer />
     </div>
   );
