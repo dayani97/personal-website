@@ -17,7 +17,7 @@ const SocialMedia = ({ className }: Props) => {
         </a>
       </li>
       <li className="w-8">
-        <a href="https://www.facebook.com">
+        <a href="https://www.facebook.com/dayani.sugunaranjan">
           <FacebookLogo />
         </a>
       </li>
