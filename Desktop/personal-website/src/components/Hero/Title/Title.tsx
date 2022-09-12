@@ -13,7 +13,9 @@ const Title = ({ className }: Props) => {
         "font-accent font-bold",
         "text-5xl md:text-6xl lg:text-7xl",
         "-rotate-6 -translate-y-10 md:-translate-y-15 lg:-translate-y-10",
-        "flex justify-center"
+        "flex justify-center",
+        "capitalize",
+        "drop-shadow-2xl"
       )}
     >
       <span>S.Dayani</span>

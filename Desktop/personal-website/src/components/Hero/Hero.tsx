@@ -21,9 +21,10 @@ const Hero = ({ className }: Props) => {
     typeSpeed={120}
      backSpeed={20}
     className={clsx(
-      'flex  justify-start md:justify-center',
-      'text-xl md:text-2xl xl:text-6xl drop-shadow',
-      'text-yellow-500'
+      'flex  justify-start md:justify-center ',
+      'text-3xl  ',
+      'text-yellow-500',
+    
     )}
     loop
       />
