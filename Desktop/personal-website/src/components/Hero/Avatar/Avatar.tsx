@@ -7,7 +7,7 @@ export interface Props {
 
 const Avatar = ({ className }: Props) => {
   return (
-    <div className={clsx(className, 'flex justify-center','mx-auto flex justify-center w-48 lg:w-56','animate-bounce')}>
+    <div className={clsx(className, 'flex justify-center','mx-auto flex justify-center w-48 lg:w-56',)}>
       <img src={logo} alt='pic'/>
     </div>
   )
