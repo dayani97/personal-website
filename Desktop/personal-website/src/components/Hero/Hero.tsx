@@ -21,7 +21,7 @@ const Hero = ({ className }: Props) => {
     typeSpeed={120}
      backSpeed={20}
     className={clsx(
-      'flex  justify-start md:justify-center',
+      'flex justify-center',
       'text-3xl  ',
       'text-yellow-500',
     
