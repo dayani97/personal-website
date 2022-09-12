@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.78929cd1.css",
-    "main.js": "/personal-website/static/js/main.14eae7ee.js",
+    "main.js": "/personal-website/static/js/main.b094e1dd.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/dayani-profile.png": "/personal-website/static/media/dayani-profile.2106b3d18c6cd2d1eaa3.png",
     "static/media/yarl-it-hub-logo.png": "/personal-website/static/media/yarl-it-hub-logo.81db16c32e7a05320377.png",
@@ -10,11 +10,11 @@
     "index.html": "/personal-website/index.html",
     "static/media/facebook-logo.svg": "/personal-website/static/media/facebook-logo.2dd5bdd216194f5edc8cf589f0378383.svg",
     "main.78929cd1.css.map": "/personal-website/static/css/main.78929cd1.css.map",
-    "main.14eae7ee.js.map": "/personal-website/static/js/main.14eae7ee.js.map",
+    "main.b094e1dd.js.map": "/personal-website/static/js/main.b094e1dd.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78929cd1.css",
-    "static/js/main.14eae7ee.js"
+    "static/js/main.b094e1dd.js"
   ]
 }
