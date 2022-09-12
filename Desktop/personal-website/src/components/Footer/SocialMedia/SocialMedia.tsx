@@ -22,7 +22,7 @@ const SocialMedia = ({ className }: Props) => {
         </a>
       </li>
       <li className="w-8">
-        <a href="www.linkedin.com/in/dayani-sugunaranjan-851b121ba">
+        <a href="http://www.linkedin.com/in/dayani-sugunaranjan-851b121ba">
           <LinkinLogo />
         </a>
       </li>
